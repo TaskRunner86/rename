@@ -27,7 +27,7 @@ class CBatchRename():
 						os.rename(src, dst)
 						# print('converting', src, ' to ' ,dst)
 					except:
-						# print('convert error', src, ' to ' ,dst )
+						print('convert error', src, ' to ' ,dst )
 						return
 	
 		filelist = os.listdir(self.path)
@@ -42,7 +42,7 @@ class CBatchRename():
 					# print('converting', src, ' to ', dst)
 					i = i + 1
 				except:
-					# print('convert error', src, ' to ', dst)
+					print('convert error', src, ' to ', dst)
 					continue
 		print('total ', total_num, ' rename')
 
