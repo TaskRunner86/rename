@@ -34,16 +34,18 @@ class CBatchRename():
 		total_num = len(filelist)
 		i = 1
 		for item in filelist:
-			if item.endswith('.jpg') or item.endswith('.JPG'):
-				src = os.path.join(os.path.abspath(self.path), item)
-				dst = os.path.join(os.path.abspath(self.path), str(i) + '.jpg')
-				try:
-					os.rename(src, dst)
-					# print('converting', src, ' to ', dst)
-					i = i + 1
-				except:
-					print('convert error', src, ' to ', dst)
-					return
+			for fileType in fileTypeList:
+				if item.endswith(fileType):
+					src = os.path.join(os.path.abspath(self.path), item)
+					dst = os.path.join(os.path.abspath(self.path), '%05d' % i + '.' + fileType)
+					try:
+						os.rename(src, dst)
+						# print('converting', src, ' to ', dst)
+						i = i + 1
+					except:
+						print('convert error', src, ' to ', dst)
+						return
+					
 		print('total ', total_num, ' rename')
 
 
