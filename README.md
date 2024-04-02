@@ -1,6 +1,6 @@
 # rename
 
-## introduction
+## Introduction
 Batch rename photos
 
 ## How to use rename
