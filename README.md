@@ -17,4 +17,4 @@ python.exe .\rename.py D:/Download/test/ 5 photo
 
 重名后的结果如下图：
 
-![结果](.\结果.png)
+![结果](./结果.png)

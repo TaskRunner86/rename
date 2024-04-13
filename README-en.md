@@ -1,6 +1,6 @@
 # rename
 
-[English](./README-en.md) | 简体中文
+English | [简体中文](./README.md)
 
 ## Introduction
 This project is used for batch renaming photos, so that the names in the renamed folder will not be messy.
@@ -17,4 +17,4 @@ python.exe .\rename.py D:/Download/test/ 5 photo
 
 The result of rename is shown in the following figure：
 
-![结果](.\结果.png)
+![结果](./结果.png)
