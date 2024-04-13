@@ -82,7 +82,7 @@ def main():
 	elif len(sys.argv) == 4:
 		batchRename = CBatchRename(sys.argv[1], sys.argv[2], sys.argv[3])
 	else:
-		print('path error')
+		print('arg num error')
 		return
 	batchRename.Rename()
 
