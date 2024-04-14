@@ -18,3 +18,9 @@ python.exe .\rename.py D:/Download/test/ 5 photo
 重名后的结果如下图：
 
 ![结果](./结果.png)
+
+
+## 视频教程
+可以通过下面链接学习批量重命名照片的方法：
+
+【这个批量重命名照片的python工具治好了我的强迫症】 https://www.bilibili.com/video/BV1Cp421Q797/
