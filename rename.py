@@ -41,7 +41,6 @@ class CBatchRename():
 						return
 	
 		filelist = os.listdir(self.path)
-		total_num = len(filelist)
 		i = 1
 		for item in filelist:
 			for fileType in fileTypeList:
@@ -56,7 +55,7 @@ class CBatchRename():
 					except:
 						print('convert error', src, ' to ', dst)
 						return
-		print('total ', total_num, ' rename')
+		print('total ', i - 1, ' rename')
 	
 
 	def GetPrefix(self):
