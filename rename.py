@@ -55,7 +55,7 @@ class CBatchRename():
 						i = i + 1
 					except:
 						print('convert error', src, ' to ', dst)
-						return			
+						return
 		print('total ', total_num, ' rename')
 	
 
