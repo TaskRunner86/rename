@@ -57,7 +57,6 @@ class CBatchRename():
 						return
 		print('total ', i - 1, ' rename')
 	
-
 	def GetPrefix(self):
 		if self.prefix == '':
 			return ''
