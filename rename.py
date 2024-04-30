@@ -46,7 +46,7 @@ class CBatchRename():
 			for fileType in fileTypeList:
 				if item.endswith(fileType):
 					src = os.path.join(os.path.abspath(self.path), item)
-					dst = os.path.join(os.path.abspath(self.path), \
+					dst = os.path.join(os.path.abspath(self.path),
 						self.GetPrefix() + self.GetNum(i) + '.' + fileType)
 					try:
 						os.rename(src, dst)
